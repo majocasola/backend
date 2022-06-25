@@ -1,0 +1,11 @@
+console.log("Hola Mundo");
+console.error("este es un error");
+console.warn("esto es una advertencia");
+console.log(1);
+console.log(14.9);
+console.log([1, 2, 5, 6]);
+console.log({ a: 1, b: 3, c: 7 });
+console.log(true);
+console.log(false);
+console.log(null);
+console.log(undefined);
