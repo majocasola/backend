@@ -26,6 +26,10 @@ class Usuario {
     getBookNames() {
         return this.libros;
     }
+    getBookNa(){
+        let nombreL = this.libros.map(soloNombre => soloNombre.nombreLibro)
+        return nombreL;
+    } // devuelve solo el nombre del libro con el METODO .map()
 
 }
 
@@ -41,4 +45,6 @@ usuario.addBook({ nombreLibro: "El señor de los anillos", autorLibro: "J.R.R. T
 
 console.log(usuario.countMascotas());
 console.log(usuario.getBookNames());
+console.log(usuario.getBookNa());
+
 

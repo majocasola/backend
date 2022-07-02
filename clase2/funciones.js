@@ -13,3 +13,14 @@ f(); // asi sí devuelve "Hola coders"
 // arrow con IIFE para que se ejecute automaticamente
 
 (() => { console.log("Funcion FLECHA"); })()
+
+/*
+se puede mostrar la funcion con console.log sin tener que asignarla antes a una variable
+
+function foo (a,b){
+    return a + b;
+}
+
+console.log(foo(2,5))
+
+*/
