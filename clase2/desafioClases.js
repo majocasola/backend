@@ -9,7 +9,31 @@ En este ejercicio construiremos una herramienta que permita que diferentes perso
 7-Definir un método obtenerCuentaGlobal que devuelva la cantidad contada por todos los contadores creados hasta el momento.
 8-Definir el método contar que incremente en uno tanto la cuenta individual como la cuenta general
 */
+class Contador {
+    constructor(nombre){
+        this.nombre = nombre; 
+        this.cuenta = 0;
+    }
 
+    static cuentaTotal = 0;
+
+    aumentarCuenta(){
+        this.cuenta += 1;
+        Contador.cuentaTotal += 1;
+    }
+}
+
+const cPedro = new Contador("Pedro");
+const cJuan = new Contador ("Juan");
+
+console.log(cPedro);
+console.log(cJuan);
+console.log("-----------");
+cPedro.aumentarCuenta();
+console.log(cPedro);
+console.log(cJuan);
+
+console.log(`El contador total es: ${Contador.cuentaTotal}`);
 
 
 
@@ -22,49 +46,3 @@ En este ejercicio construiremos una herramienta que permita que diferentes perso
 
 
 
-/*EJEMPLO DESAFIO BACK ANTERIOR NO VER
-
-class Usuario {
-    constructor(nombre, apellido, libros, mascotas) {
-        this.nombre = nombre
-        this.apellido = apellido
-        this.libros = libros
-        this.mascotas = mascotas
-    }
-
-    getFullName() {
-        return `${this.nombre} ${this.apellido}`;
-    }
-
-    addMascotas(mascota) {
-
-        return this.mascotas.push(mascota);
-    }
-
-    countMascotas() {
-        return this.mascotas.length;
-    }
-    addBook(libros) {
-        return this.libros.push(libros);
-    }
-
-    getBookNames() {
-        return this.libros;
-    }
-
-}
-
-const usuario = new Usuario('Juan', 'Perez', [{ nombreLibro: "Dr. Sueño", autorLibro: "Stephen King" }], ["perro", "gato"]);
-console.log(usuario);
-console.log(usuario.getFullName());
-console.log(usuario.countMascotas());
-console.log(usuario.getBookNames());
-
-usuario.addMascotas("pez");
-usuario.addBook({ nombreLibro: "El señor de los anillos", autorLibro: "J.R.R. Tolkien" });
-
-
-console.log(usuario.countMascotas());
-console.log(usuario.getBookNames());
-
-*/
