@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "Dell1",
+        "precio": 456,
+        "id": 1,
+        "categoria": "notebook"
+    },
+    {
+        "nombre": "HP1",
+        "precio": 555,
+        "id": 2,
+        "categoria": "impresora"
+    },
+    {
+        "nombre": "HP1",
+        "precio": 555,
+        "id": 2,
+        "categoria": "impresora"
+    }
+]
