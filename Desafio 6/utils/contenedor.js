@@ -52,6 +52,12 @@ class Contenedor {
         this.contenedor = [];
         this._saveAll([]);
     }
+
+    updateById(id, object) {
+        const index = this.contenedor.findIndex(el => el.id === id);
+        this.contenedor[index] = object;
+        this._saveAll(this.contenedor);
+    }
 }
 
 module.exports = Contenedor // COMMONJS
