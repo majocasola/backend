@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "titulo": "Halo",
@@ -24,4 +25,32 @@
     "thumbnail": "castlevania.com",
     "precio": 130 
   }
+=======
+[
+  {
+    "titulo": "Halo",
+    "thumbnail": "halo.com",
+    "precio": 100 
+  },
+  {
+    "titulo": "COD",
+    "thumbnail": "cod.com",
+    "precio": 120 
+  },
+  {
+    "titulo": "FFXXI",
+    "thumbnail": "ffxxi.com",
+    "precio": 90 
+  },
+  {
+    "titulo": "Spyro",
+    "thumbnail": "spyro.com",
+    "precio": 150 
+  },
+  {
+    "titulo": "Castlevania",
+    "thumbnail": "castlevania.com",
+    "precio": 130 
+  }
+>>>>>>> 3af1cd2fcb1d92ec5f227fe2695ecad61a9b5b57
 ]

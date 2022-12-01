@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 [
   {"name": "Huevos", "age": 500},
   {"name": "Arroz", "age": 200}
+=======
+[
+  {"name": "Huevos", "age": 500},
+  {"name": "Arroz", "age": 200}
+>>>>>>> 3af1cd2fcb1d92ec5f227fe2695ecad61a9b5b57
 ]
